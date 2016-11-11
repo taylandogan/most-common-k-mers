@@ -21,11 +21,17 @@ Also, note that it just uses the genomic sequences in the given .fastq file. (It
 
 ###Information Concerning Execution Times:
 (CPU: Intel i7-2670QM)
+
 Input File              | # of lines| Size of the file  | Execution Time
+
 ERR068396.filt.fastq    |   ~270K   |       17.2 MB     |   ~3.2 sec
+
 ERR059924.filt.fastq    |   ~283K   |       18.1 MB     |   ~3 sec
+
 ERR059932.filt.fastq    |   ~636K   |       40.6 MB     |   ~9 sec
+
 ERR047698.filt.fastq    |   ~800K   |       47.4 MB     |   ~11 sec
+
 ERR055763_1.filt.fastq  |   ~70M    |       4.5 GB      |   ~28.5 min
 
 *Note that you may decrease the execution time by reducing the fairness constant.
